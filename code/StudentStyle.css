@@ -1,0 +1,100 @@
+body{
+    margin:0px;
+    height:100vh;
+    
+}
+@keyframes fade{
+    0%{
+        
+        top:0px;
+        opacity:0;
+        
+    }
+    100%{
+        top:20px;
+        opacity:1;
+    }
+}
+.display-4{
+    font-size:30px;
+}
+input{
+   
+    min-width:200px;
+    position:center;
+    border-bottom-width:2px;
+    border-bottom-color:red;
+      
+}
+input:hover{
+    border-bottom-width:4px;
+     border-bottom-color:green;
+}
+
+   #grad1 {
+  padding: 35px 100px;
+  background-image: linear-gradient(white, teal);
+}
+
+    div{
+        padding:20px 50px;
+    }
+    #a{
+         border-top-style: hidden;
+    }
+    h1{
+        text-shadow: 2px 2px 5px ;
+  background: -webkit-linear-gradient(#eee, #333);
+ -webkit-background-clip: text;
+   animation:fade 0.9s linear; 
+   position:relative;
+    animation-fill-mode:both;
+    animation-delay:1s;
+}
+
+#a{
+        position:relative;
+animation:fade 1s linear; 
+   animation-delay:2.5s;
+   animation-fill-mode:both;
+}
+#b{
+     border-top-style: hidden;
+        position:relative;
+  animation:fade 1s linear; 
+   animation-delay:3s;
+   animation-fill-mode:both;
+}
+#c{
+       position:relative;
+ animation:fade 1s linear; 
+   animation-delay:3.5s;
+   animation-fill-mode:both;
+}
+#d{
+        position:relative;
+animation:fade 1s linear; 
+   animation-delay:4s;
+   animation-fill-mode:both; 
+}
+#e{
+        
+ animation:fade 1s linear; 
+   animation-delay:4.5s;
+   animation-fill-mode:both;
+}
+.form-control{
+    border-bottom-width:6px;
+}
+.error{
+    font-family: 'Charm';
+    font-weight:900;
+    color:red;
+    font-size:20px;
+   border: 5px ridge #a8326b;
+   border-radius:6px;
+    display: inline-block;
+    position:relative;
+    padding:10px;
+    
+}

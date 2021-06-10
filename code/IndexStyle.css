@@ -1,0 +1,203 @@
+
+html,body {
+  height: 100%;
+  
+}
+
+body {
+  margin:0px;
+}
+
+.alrazy-title {
+    text-align:center;
+  font-family: 'Atomic Age';
+  font-weight: 700;
+  font-size: 6vw;
+ color:white;
+  
+  position: relative;
+  padding: 0.4em 0;
+  overflow: hidden;
+    
+
+}
+.alrazy-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 0.2em;
+  -webkit-animation: underline 1s cubic-bezier(0.8, 0, 0, 1);
+          animation: underline 1s cubic-bezier(0.8, 0, 0, 1);
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+@-webkit-keyframes underline {
+  from {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+@keyframes underline {
+  from {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+.alrazy-title .word {
+  display: inline-block;
+  -webkit-animation: slide-up 1.25s cubic-bezier(0.5, 0.2, 0, 1);
+          animation: slide-up 1.25s cubic-bezier(0.5, 0.2, 0, 1);
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: calc( .5s + (.1s * var(--word-index)) );
+          animation-delay: calc( .5s + (.1s * var(--word-index)) );
+}
+@-webkit-keyframes slide-up {
+  from {
+    -webkit-transform: translateY(125%);
+            transform: translateY(125%);
+  }
+}
+@keyframes slide-up {
+  from {
+    -webkit-transform: translateY(125%);
+            transform: translateY(125%);
+  }
+}
+.splitting-mark {
+  color: #FFF !important;
+}
+
+
+
+img{
+    width:100%;
+    height:100%;
+}
+
+@keyframes fade{
+    0%{
+        
+        top:0px;
+        opacity:0;
+        
+    }
+    100%{
+        top:80px;
+        opacity:1;
+    }
+}
+   #grad2 {
+  
+ 
+ 
+  animation-duration:3s;
+  animation-delay:2s;
+  animation-fill-mode:forwards;
+}
+   #grad1 {
+  padding: 5px 10px;
+  background-image: linear-gradient(white, teal);
+  width:60%;
+  border-radius:10px;
+}
+body{
+    height:100vh;
+      
+background-image:url("5.jpg");
+  min-height:100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+#shr{
+    font-size:16px;
+    font-family:cursive;
+}
+
+.display-4{
+    
+    font-size:25px;
+}
+h1{
+       
+
+ color:darkblue;
+  
+  
+}
+h2{
+          
+  background: -webkit-linear-gradient(green, white);
+  -webkit-background-clip: text;
+  font-size:16px;
+    text-align: center;
+    position:relative;
+    
+   animation:fade 1s linear; 
+   animation-delay:2s;
+   animation-fill-mode:both;
+}
+#a{
+        position:relative;
+animation:fade 1s linear; 
+   animation-delay:2.5s;
+   animation-fill-mode:both;
+}
+#b{
+     border-top-style: hidden;
+        position:relative;
+  animation:fade 1s linear; 
+   animation-delay:3s;
+   animation-fill-mode:both;
+}
+#c{
+       position:relative;
+ animation:fade 1s linear; 
+   animation-delay:3.5s;
+   animation-fill-mode:both;
+}
+#d{
+        position:relative;
+animation:fade 1s linear; 
+   animation-delay:4s;
+   animation-fill-mode:both; 
+}
+#e{
+        
+ animation:fade 1s linear; 
+   animation-delay:4.5s;
+   animation-fill-mode:both;
+}
+input{
+    min-width:50px;
+    
+}
+.form-control{
+      border-bottom-width:6px;
+      
+}
+.webcoderskull {
+  font-size: 0.5em;
+}
+.typewrite{
+    font-family:'Almendra';
+    font-weight:900;
+   color:teal;
+    text-align:center;
+}
+
+svg {
+  position: absolute;
+  top:20px;
+  
+
+  font: 10em/1 Arial;
+}
+
